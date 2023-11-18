@@ -6,3 +6,5 @@ To use this script simply download it into your linux server and give permission
 >  chmod +x secure.sh
 >
 > sh secure.sh
+
+**In your cloudflare settings enable proxy and enable "Under Attack Mode" for extra security**
