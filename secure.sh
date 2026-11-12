@@ -8,7 +8,7 @@ iptables -I INPUT -p tcp -m tcp --dport 80:443 -j DROP
 iptables -I INPUT -s 173.245.48.0/20 -p tcp -m tcp --dport 80:443 -j ACCEPT
 iptables -I INPUT -s 103.21.244.0/22 -p tcp -m tcp --dport 80:443 -j ACCEPT
 iptables -I INPUT -s 103.22.200.0/22 -p tcp -m tcp --dport 80:443 -j ACCEPT
-iptables -I INPUT -s 103.31.4.0/22 -p tcp -m tcp --dport 80:443 j ACCEPT
+iptables -I INPUT -s 103.31.4.0/22 -p tcp -m tcp --dport 80:443 -j ACCEPT
 iptables -I INPUT -s 141.101.64.0/18 -p tcp -m tcp --dport 80:443 -j ACCEPT
 iptables -I INPUT -s 108.162.192.0/18 -p tcp -m tcp --dport 80:443 -j ACCEPT
 iptables -I INPUT -s 190.93.240.0/20 -p tcp -m tcp --dport 80:443 -j ACCEPT
